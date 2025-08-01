@@ -11,7 +11,7 @@ The following table shows all lectures in the order in which each should be comp
 | 3 | Print 1 to N using Recursion | [Sol1](lectures/print_one_to_n-sol1.cpp), [Sol2](lectures/print_one_to_n-sol2.cpp) |
 | 4 | Print N to 1 using Recursion | [Sol1](lectures/print_n_to_one-sol1.cpp), [Sol2](lectures/print_n_to_one-sol2.cpp)  |
 | 5 | Recursion Output Practice | [Task1](lectures/output_practice-task1.cpp), [Task2](lectures/output_practice-task2.cpp), [Task3](lectures/output_practice-task3.cpp), [Task4](lectures/output_practice-task4.cpp) |
-| 6 | Power using Recursion | [-]() |
+| 6 | Power using Recursion | [Sol1](lectures/power.cpp) |
 | 7 | Fibonacci using Recursion | [Sol1](lectures/fibonacci-sol1.cpp), [Sol2](lectures/fibonacci-sol2.cpp) |
 | 8 | Tail Recursion | [-]() |
 | 9 | Writing Base Cases | [-]() |
