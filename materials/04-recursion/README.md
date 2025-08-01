@@ -13,11 +13,11 @@ The following table shows all lectures in the order in which each should be comp
 | 5 | Recursion Output Practice | [Task1](lectures/output_practice-task1.cpp), [Task2](lectures/output_practice-task2.cpp), [Task3](lectures/output_practice-task3.cpp), [Task4](lectures/output_practice-task4.cpp) |
 | 6 | Power using Recursion | [Sol1](lectures/power.cpp) |
 | 7 | Fibonacci using Recursion | [Sol1](lectures/fibonacci-sol1.cpp), [Sol2](lectures/fibonacci-sol2.cpp) |
-| 8 | Tail Recursion | [-]() |
+| 8 | Tail Recursion | [Code](lectures/tail_recursion.cpp) |
 | 9 | Writing Base Cases | [-]() |
-| 10 | Natural Number Sum using Recursion | [-]() |
-| 11 | Palindrome Check using Recursion | [-]() |
-| 12 | Sum of Digits using Recursion | [-]() |
+| 10 | Natural Number Sum using Recursion | [Sol1](lectures/sum_of_natural_numbers-sol1.cpp), [Sol2](lectures/sum_of_natural_numbers-sol2.cpp) |
+| 11 | Palindrome Check using Recursion | [Sol1](lectures/palindrome_check.cpp) |
+| 12 | Sum of Digits using Recursion | [Sol1](lectures/sum_of_digits-sol1.cpp), [Sol2](lectures/sum_of_digits-sol2.cpp), [Sol3](lectures/sum_of_digits-sol3.cpp) |
 | 13 | Rope Cutting Problem | [-]() |
 | 14 | Generate Subsets | [-]() |
 | 15 | Tower of Hanoi | [-]() |

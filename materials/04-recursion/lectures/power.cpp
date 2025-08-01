@@ -11,6 +11,7 @@ int f(int b, int p)
 
 int main()
 {
+    // find value of 4^3, which is equal 64
     cout << f(4, 3) << '\n';
     return 0;
 }
