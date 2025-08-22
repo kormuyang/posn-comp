@@ -14,15 +14,14 @@ The following table shows all lectures in the order in which each should be comp
 | 6 | Power using Recursion | [Sol1](lectures/power.cpp) |
 | 7 | Fibonacci using Recursion | [Sol1](lectures/fibonacci-sol1.cpp), [Sol2](lectures/fibonacci-sol2.cpp) |
 | 8 | Tail Recursion | [Code](lectures/tail_recursion.cpp) |
-| 9 | Writing Base Cases | [-]() |
-| 10 | Natural Number Sum using Recursion | [Sol1](lectures/sum_of_natural_numbers-sol1.cpp), [Sol2](lectures/sum_of_natural_numbers-sol2.cpp) |
-| 11 | Palindrome Check using Recursion | [Sol1](lectures/palindrome_check.cpp) |
-| 12 | Sum of Digits using Recursion | [Sol1](lectures/sum_of_digits-sol1.cpp), [Sol2](lectures/sum_of_digits-sol2.cpp), [Sol3](lectures/sum_of_digits-sol3.cpp) |
-| 13 | Rope Cutting Problem | [-]() |
-| 14 | Generate Subsets | [-]() |
-| 15 | Tower of Hanoi | [-]() |
-| 16 | Josephus Problem | [-]() |
-| 17 | Printing all Permutations | [-]() |
+| 9 | Natural Number Sum using Recursion | [Sol1](lectures/sum_of_natural_numbers-sol1.cpp), [Sol2](lectures/sum_of_natural_numbers-sol2.cpp) |
+| 10 | Palindrome Check using Recursion | [Sol1](lectures/palindrome_check.cpp) |
+| 11 | Sum of Digits using Recursion | [Sol1](lectures/sum_of_digits-sol1.cpp), [Sol2](lectures/sum_of_digits-sol2.cpp), [Sol3](lectures/sum_of_digits-sol3.cpp) |
+| 12 | Rope Cutting Problem | [Sol1](lectures/rope_cutting_problem-sol1.cpp), [Sol2](lectures/rope_cutting_problem-sol2.cpp) |
+| 13 | Generate Subsets | [Sol1](lectures/generate_subsets.cpp) |
+| 14 | Tower of Hanoi | [-]() |
+| 15 | Josephus Problem | [-]() |
+| 16 | Printing all Permutations | [-]() |
 <br>
 
 ## Problems
@@ -35,4 +34,4 @@ The following table shows all problems and solutions in the order in which each 
 | 2 | [subset_sum_problem]() | [Sol1]() |
 | 3 | [power_set_using_recursion]() | [Sol1]() |
 | 4 | [lucky_numbers]() | [Sol1]() |
-| 5 | [possible_words_from_phone_digits]() | [Sol1]() |
+| 5 | [possible_words_from_phone_digits]() | [Sol1](solutions/phone_digits.cpp) |
