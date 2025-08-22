@@ -19,9 +19,9 @@ The following table shows all lectures in the order in which each should be comp
 | 11 | Sum of Digits using Recursion | [Sol1](lectures/sum_of_digits-sol1.cpp), [Sol2](lectures/sum_of_digits-sol2.cpp), [Sol3](lectures/sum_of_digits-sol3.cpp) |
 | 12 | Rope Cutting Problem | [Sol1](lectures/rope_cutting_problem-sol1.cpp), [Sol2](lectures/rope_cutting_problem-sol2.cpp) |
 | 13 | Generate Subsets | [Sol1](lectures/generate_subsets.cpp) |
-| 14 | Tower of Hanoi | [-]() |
-| 15 | Josephus Problem | [-]() |
-| 16 | Printing all Permutations | [-]() |
+| 14 | Tower of Hanoi | [Code](lectures/tower_of_hanoi.cpp) |
+| 15 | Josephus Problem | [Sol1](lectures/josephus_problem-sol1.cpp), [Sol2](lectures/josephus_problem-sol2.cpp) |
+| 16 | Printing all Permutations | [Sol1](lectures/print_all_permutations-sol1.cpp), [Sol2](lectures/print_all_permutations-sol2.cpp) |
 <br>
 
 ## Problems
