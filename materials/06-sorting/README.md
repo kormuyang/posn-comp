@@ -11,16 +11,14 @@ The following table shows all lectures in the order in which each should be comp
 | 3 | Selction Sort | [Code](lectures/selection_sort.cpp) |
 | 4 | Insertion Sort | [Code](lectures/insertion_sort.cpp) |
 | 5 | Stability in Sorting Algorithm | - |
-| 6 | Merge Sort (Introduction) | - |
-| 7 | Merge Sort (Code) | - |
-| 8 | Merge Sort (Analysis) | - |
-| 9 | Naive Partition | - |
-| 10 | Lomuto Partition | - |
-| 11 | Hoare Partition | - |
-| 12 | Quick Sort (Introduction) | - |
-| 13 | Quick Sort using Lomuto Partition | - |
-| 14 | Quick Sort using Hoare Partition | - |
-| 15 | Quick Sort (Analysis) | - |
+| 6 | Merge Sort | [Code](lectures/merge_sort.cpp) |
+| 7 | Naive Partition | - |
+| 8 | Lomuto Partition | - |
+| 9 | Hoare Partition | - |
+| 10 | Quick Sort (Introduction) | - |
+| 11 | Quick Sort using Lomuto Partition | - |
+| 12 | Quick Sort using Hoare Partition | - |
+| 13 | Quick Sort (Analysis) | - |
 <br>
 
 ## Problems

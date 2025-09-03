@@ -1,59 +1,38 @@
-// Input
-// 5 10
-// 2 3 4 6 7
-
-// Output
-// 8
-// 2 2 2 2 2 
-// 2 2 2 4 
-// 2 2 3 3 
-// 2 2 6 
-// 2 4 4 
-// 3 3 4 
-// 3 7 
-// 4 6
-
 #include <bits/stdc++.h>
 
 using namespace std;
 
-int n, m;
-vector<vector<int>> res;
+// Macro
+#define MAX_N 10
 
-void search(vector<int> v, vector<int> curr, int idx, int sum)
-{
-    if (sum == m)
-    {
+// Global Variable
+vector<int> v(MAX_N);
+vector<vector<int>> res;
+int n, k, cnt = 0;
+
+void search(int sum, int idx, vector<int> curr) {
+    if (sum == k) {
+        cnt++;
         res.push_back(curr);
         return;
+    } else if (sum > k || idx == n) {
+        return;
     }
-    for (int i = idx; i < n; i++)
-    {
-        if (sum + v[i] <= m)
-        {
-            curr.push_back(v[i]);
-            search(v, curr, i, sum + v[i]);
-            curr.pop_back();
-        }
-    }
+    curr.push_back(v[idx]);
+    search(sum + v[idx], idx, curr);
+    curr.pop_back();
+    search(sum, idx + 1, curr);
     return;
 }
 
-int main()
-{
-    cin >> n >> m;
-    vector<int> v(n);
-    for (int &x : v)
-    {
-        cin >> x;
-    }
-    search(v, {}, 0, 0);
-    cout << res.size() << '\n';
-    for (auto &x : res)
-    {
-        for (int &y : x)
-        {
-            cout << y << ' ';
+int main() {
+    cin >> n >> k;
+    for (int i = 0; i < n; i++) cin >> v[i];
+    search(0, 0, {});
+    cout << cnt << '\n';
+    for (int i = 0; i < res.size(); i++) {
+        for (int j = 0; j < res[i].size(); j++) {
+            cout << res[i][j] << ' ';
         }
         cout << '\n';
     }
