@@ -2,6 +2,8 @@
 
 using namespace std;
 
+int ans = 0;
+
 void merge(vector<int> &arr, int left, int mid, int right) {
     int n_left = mid - left + 1;
     int n_right = right - mid;
@@ -22,6 +24,7 @@ void merge(vector<int> &arr, int left, int mid, int right) {
         } else {
             arr[k] = arr_right[j];
             j++;
+            ans += (n_left - i);
         }
         k++;
     }
@@ -52,11 +55,13 @@ void mergeSort(vector<int> &arr, int left, int right) {
 }
 
 int main() {
-    vector<int> arr = {5, 4, 6, 1, 3, 8, 2, 7};
-    mergeSort(arr, 0, arr.size() - 1);
-    for (auto x : arr) {
-        cout << x << ' ';
+    int n;
+    cin >> n;
+    vector<int> v(n);
+    for (int i = 0; i < n; i++) {
+        cin >> v[i];
     }
-    cout << '\n';
+    mergeSort(v, 0, n - 1);
+    cout << ans << '\n';
     return 0;
 }
