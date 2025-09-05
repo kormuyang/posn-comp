@@ -27,7 +27,7 @@ The following table shows all problems and solutions in the order in which each 
 
 | Order | Problem | Solution |
 |:---:|:---:|:---:|
-| 1 | [sort_by_absolute_difference]() | [Sol1]() |
+| 1 | [sort_by_absolute_difference]() |  |
 | 2 | [merge_three_sorted_arrays](problems/merge_three_sorted_arrays.pdf) |  |
 | 3 | [find_triplets_with_zero_sum](problems/find_triplets_with_zero_sum.pdf) |  |
 | 4 | [intersection_of_two_sorted_arrays](problems/intersection_of_two_sorted_arrays.pdf) |  |
