@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Fucntion Sort() in C++ STL
+// Function Sort() in C++ STL
 // Time Complexity: O(N log N)
 // Space Complexity: O(1)
 
