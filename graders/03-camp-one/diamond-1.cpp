@@ -24,15 +24,15 @@ int main() {
     // Output
     // Print Upper Diamond
     for (int i = 0; i < c.size(); i++) {
-        int startCol = c.size() - 1 - i, centerCharIndex = i;
+        int startCol = c.size() - 1 - i;
         for (int j = 0; j < startCol; j++) {
             cout << ' ';
         }
-        for (int j = 0; j < centerCharIndex; j++) {
+        for (int j = 0; j < i; j++) {
             cout << c[j];
         }
-        cout << c[centerCharIndex];
-        for (int j = centerCharIndex - 1; j >= 0; j--) {
+        cout << c[i];
+        for (int j = i - 1; j >= 0; j--) {
             cout << c[j];
         }
         for (int j = 0; j < startCol; j++) {
@@ -42,15 +42,16 @@ int main() {
     }
     // Print Lower Diamond
     for (int i = 1; i < c.size(); i++) {
-        int startCol = i, centerCharIndex = c.size() - 1 - i;
+        // centerCharIdx = Index of the Center Character
+        int startCol = i, centerCharIdx = c.size() - 1 - i;
         for (int j = 0; j < startCol; j++) {
             cout << ' ';
         }
-        for (int j = 0; j < centerCharIndex; j++) {
+        for (int j = 0; j < centerCharIdx; j++) {
             cout << c[j];
         }
-        cout << c[centerCharIndex];
-        for (int j = centerCharIndex - 1; j >= 0; j--) {
+        cout << c[centerCharIdx];
+        for (int j = centerCharIdx - 1; j >= 0; j--) {
             cout << c[j];
         }
         for (int j = 0; j < startCol; j++) {
