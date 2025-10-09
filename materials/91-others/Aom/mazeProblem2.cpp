@@ -11,7 +11,14 @@ vector<vector<bool>> vis(MAX_N, vector<bool>(MAX_N, false));
 
 bool search(int y, int x) {
     vis[y][x] = true;
+    table[y][x] = 2;
     if (y == row - 1 && x == col - 1) {
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                cout << table[i][j] << ' ';
+            }
+            cout << '\n';
+        }
         return true;
     }
     if (y + 1 < row && table[y + 1][x] && !vis[y + 1][x] && search(y + 1, x)) {
@@ -26,6 +33,7 @@ bool search(int y, int x) {
     if (x - 1 >= 0 && table[y][x - 1] && !vis[y][x - 1] && search(y, x - 1)) {
         return true;
     }
+    table[y][x] = 1;
     return false;
 }
 
@@ -38,8 +46,6 @@ int main() {
     }
     if (!search(0, 0)) {
         cout << "NO\n";
-    } else {
-        cout << "YES\n";
     }
     return 0;
 }
