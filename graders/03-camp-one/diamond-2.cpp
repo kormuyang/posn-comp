@@ -21,7 +21,6 @@ int main() {
         }
     }
 
-    // Output
     // Create Canva
     string tmp = "";
     int sz = c.size() * 2 - 1;
@@ -30,6 +29,7 @@ int main() {
     }
     vector<string> out(sz, tmp);
 
+    // Edit Canva
     // Edit Upper Diamond
     for (int i = 0; i < c.size(); i++) {
         int startCol = c.size() - 1 - i;
