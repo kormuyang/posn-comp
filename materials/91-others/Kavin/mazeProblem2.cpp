@@ -31,7 +31,6 @@ Output:
 NO
 */
 
-// Global Variables
 int row, col;
 vector<vector<int>> table(MAX_N, vector<int>(MAX_N));
 vector<vector<bool>> vis(MAX_N, vector<bool>(MAX_N, false));
