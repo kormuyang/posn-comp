@@ -19,12 +19,12 @@ int main() {
 
     // Edit Canva
     for (int i = 0; i < n; i++) {
-        int startrow = i * h, startcol = i * h;
+        int startRow = i * h, startCol = i * h;
         for (int j = 0; j < n - i; j++) {
-            int col = 2 * h * j + startcol;
+            int col = startCol + 2 * h * j;
             for (int p = 0; p < h; p++) {
                 for (int q = p; q < 2 * h - p - 1; q++) {
-                    out[p + startrow][q + col] = c;
+                    out[startRow + p][col + q] = c;
                 }
             }
         }
