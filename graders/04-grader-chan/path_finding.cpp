@@ -42,13 +42,19 @@ int main() {
         }
         // Move Down
         if (pos[i].first > pos[i - 1].first) {
-            for (int j = pos[i - 1].first; j < pos[i].first; j++) {
+            if (pos[i - 1].second != pos[i].second) {
+                out[pos[i - 1].first][pos[i].second] = 'v';
+            }
+            for (int j = pos[i - 1].first + 1; j < pos[i].first; j++) {
                 out[j][pos[i].second] = 'v';
             }
         }
         // Move Up
         else if (pos[i].first < pos[i - 1].first) {
-            for (int j = pos[i - 1].first; j > pos[i].first; j--) {
+            if (pos[i - 1].second != pos[i].second) {
+                out[pos[i - 1].first][pos[i].second] = '^';
+            }
+            for (int j = pos[i - 1].first - 1; j > pos[i].first; j--) {
                 out[j][pos[i].second] = '^';
             }
         }

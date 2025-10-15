@@ -4,42 +4,48 @@ using namespace std;
 
 #define ll long long
 
-ll low, high, cnt = 0;
+ll l, h, ans = 0;
 
-void search(string current) {
-    if (current != "") {
-        if (current.size() > 1 && current[0] == '0') {
-            return;
-        }
-        ll num;
-        num = stoll(current);
-        if (num > high) {
-            return;
-        }
-        if (num >= low) {
-            cnt++;
-        }
+bool isInRange(ll x) { return (l <= x && x <= h); }
+
+void search(string a, string b) {
+    if (stoll(a + b) > h) {
+        return;
     }
-    if (current != "") {
-        search("0" + current + "0");
+    if (isInRange(stoll(a + b))) {
+        ans++;
     }
-    search("1" + current + "1");
-    search("6" + current + "9");
-    search("8" + current + "8");
-    search("9" + current + "6");
+    if (isInRange(stoll(a + "0" + b))) {
+        ans++;
+    }
+    if (isInRange(stoll(a + "1" + b))) {
+        ans++;
+    }
+    if (isInRange(stoll(a + "8" + b))) {
+        ans++;
+    }
+    search(a + "0", "0" + b);
+    search(a + "1", "1" + b);
+    search(a + "6", "9" + b);
+    search(a + "8", "8" + b);
+    search(a + "9", "6" + b);
 }
 
 int main() {
-    // Input
-    cin >> low >> high;
-
-    // Recursion
-    search("");
-    search("0");
-    search("1");
-    search("8");
-
-    // Output
-    cout << cnt << '\n';
+    cin >> l >> h;
+    if (isInRange(0)) {
+        ans++;
+    }
+    if (isInRange(1)) {
+        ans++;
+    }
+    if (isInRange(8)) {
+        ans++;
+    }
+    search("1", "1");
+    search("6", "9");
+    search("8", "8");
+    search("9", "6");
+    cout << ans << '\n';
     return 0;
 }
