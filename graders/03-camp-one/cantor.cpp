@@ -16,10 +16,8 @@ int main() {
     while (q--) {
         int n;
         cin >> n;
-        if (n == 0) {
-            cout << "0\n";
-            continue;
-        }
+
+        // Find the start index
         int startIdx = 1;
         for (int i = MAX_FAC; i >= 2; i--) {
             if (n >= fac[i]) {
@@ -27,6 +25,8 @@ int main() {
                 break;
             }
         }
+
+        // Convert
         for (int i = startIdx; i >= 1; i--) {
             cout << n / fac[i];
             n %= fac[i];

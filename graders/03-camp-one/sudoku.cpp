@@ -23,9 +23,7 @@ int main() {
         for (int i = 0; i < pos.size(); i++) {
             int row = pos[i].first, col = pos[i].second;
             vector<bool> chk(n + 1, false);
-            string tmp = "";
-            tmp += '0' + col + 1;
-            tmp += '0' + row + 1;
+            int tmp = (col + 1) * 10 + (row + 1);
             for (int i = 0; i < n; i++) {
                 chk[board[i][col] - '0'] = true;
             }
@@ -34,11 +32,11 @@ int main() {
             }
             for (int i = 1; i <= n; i++) {
                 if (!chk[i]) {
-                    tmp += '0' + i;
+                    tmp = tmp * 10 + i;
                     break;
                 }
             }
-            ans += stoi(tmp);
+            ans += tmp;
         }
         cout << ans << '\n';
     }
