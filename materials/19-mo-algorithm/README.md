@@ -1,4 +1,4 @@
-# Mo's Algorithms
+# Mo's Algorithm
 
 ## Lectures
 

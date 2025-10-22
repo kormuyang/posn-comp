@@ -32,4 +32,4 @@ This is the most significant part because DSA is the main concept taught in the 
 | 16 | Dynamic Programming | [16-dynamic-programming](materials/16-dynamic-programming/) |
 | 17 | Fenwick Tree | [17-fenwick-tree](materials/17-fenwick-tree/) |
 | 18 | Segment Tree | [18-segment-tree](materials/18-segment-tree/) |
-| 19 | Mo's Algorithm | [19-mos-algorithm](materials/19-mos-algorithm/) |
+| 19 | Mo's Algorithm | [19-mo-algorithm](materials/19-mo-algorithm/) |

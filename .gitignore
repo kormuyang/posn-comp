@@ -43,3 +43,5 @@
 # Personal Configuration
 test.*
 test/
+.DS_Store
+.vscode/
