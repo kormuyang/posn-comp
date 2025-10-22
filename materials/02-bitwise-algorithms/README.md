@@ -4,9 +4,9 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
-| 1 | Bitwise Basic | [Web](lectures/bitwise_basic.md) |
+| 1 | Bitwise Basic | [Page](lectures/bitwise_basic.md) |
 | 2 | Bitwise Operators | [Note](lectures/bitwise_operators.txt) |
 | 3 | Important Tactics | [Code](lectures/important_tactics.cpp) |
 <br>
