@@ -7,6 +7,8 @@ Hi everyone! This repo was intentionally made as a guideline for competing in PO
 1. Learn the language (C/C++)
 2. Understand Analysis of Algorithms
 3. [Learn the concept of Data Structures and Algorithms (DSA)](#curriculum-dsa)
+4. Practice Problems
+5. Compete in Online Contests
 
 ## Curriculum: DSA
 
