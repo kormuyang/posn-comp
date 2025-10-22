@@ -26,7 +26,7 @@ The following table shows all problems and solutions in the order in which each 
 | 10 | [exactly_3_divisors](problems/exactly_3_divisors.pdf) | [Sol1](solutions/exactly_3_divisors.cpp) |
 | 11 | [exactly_n_divisors](problems/exactly_n_divisors.pdf) | [Sol1](solutions/exactly_n_divisors.cpp) |
 | 12 | [exactly_n_prime_divisors](problems/exactly_n_prime_divisors.pdf) | [Sol1](solutions/exactly_n_prime_divisors.cpp) |
-| 14 | [addition_under_modulo](problems/addition_under_modulo.pdf) | [Sol1](solutions/addition_under_modulo.cpp) |
-| 15 | [multiplication_under_modulo](problems/multiplication_under_modulo.pdf) | [Sol1](solutions/multiplication_under_modulo.cpp) |
-| 16 | [modular_inverse](problems/modular_inverse.pdf) | [Sol1](solutions/modular_inverse.cpp) |
-| 17 | [modular_exponentiation](problems/modular_exponentiation.pdf) | [Sol1](solutions/) |
+| 13 | [addition_under_modulo](problems/addition_under_modulo.pdf) | [Sol1](solutions/addition_under_modulo.cpp) |
+| 14 | [multiplication_under_modulo](problems/multiplication_under_modulo.pdf) | [Sol1](solutions/multiplication_under_modulo.cpp) |
+| 15 | [modular_inverse](problems/modular_inverse.pdf) | [Sol1](solutions/modular_inverse.cpp) |
+| 16 | [modular_exponentiation](problems/modular_exponentiation.pdf) | [Sol1](solutions/) |
