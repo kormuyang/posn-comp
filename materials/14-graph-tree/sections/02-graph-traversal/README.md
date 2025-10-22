@@ -4,7 +4,7 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | Breadth First Search (BFS) | [-]() |
 | 2 | Depth First Search (DFS) | [-]() |
@@ -14,7 +14,6 @@ The following table shows all lectures in the order in which each should be comp
 | 6 | Bipartite Graph Check | [-]() |
 | 7 | Graph Coloring (Chromatic Number) | [-]() |
 | 8 | Flood Fill Algorithm | [-]() |
-<br>
 
 ## Problems
 

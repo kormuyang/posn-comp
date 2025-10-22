@@ -4,7 +4,7 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | Sort in C++ STL | [Code](lectures/sort_in_stl.cpp) |
 | 2 | Bubble Sort | [Code](lectures/bubble_sort.cpp) |
@@ -19,7 +19,6 @@ The following table shows all lectures in the order in which each should be comp
 | 11 | Quick Sort using Lomuto Partition | - |
 | 12 | Quick Sort using Hoare Partition | - |
 | 13 | Quick Sort (Analysis) | - |
-<br>
 
 ## Problems
 

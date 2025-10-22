@@ -4,13 +4,12 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | Queue Data Structure | [-]() |
 | 2 | Applications of Queue | [-]() |
 | 3 | Queue in C++ STL | [-]() |
 | 4 | Generate Numbers with Given Digits | [-]() |
-<br>
 
 ## Problems
 

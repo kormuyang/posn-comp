@@ -4,7 +4,7 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | Hashing Introduction | [-]() |
 | 2 | Direct Address Table | [-]() |
@@ -16,7 +16,6 @@ The following table shows all lectures in the order in which each should be comp
 | 8 | Chaining vs Open Addressing | [-]() |
 | 9 | unordered_set in C++ STL | [-]() |
 | 10 | unordered_map in C++ STL | [-]() |
-<br>
 
 ## Problems
 

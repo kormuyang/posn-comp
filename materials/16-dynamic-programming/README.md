@@ -1,13 +1,12 @@
-# Dynamic Programming (DP)
+# Dynamic Programming
 
 ## Lectures
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | - | [-]() |
-<br>
 
 ## Problems
 

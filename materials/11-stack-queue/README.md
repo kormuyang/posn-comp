@@ -1,4 +1,4 @@
-# Stack, Queue, & Deque
+# Stack & Queue
 
 ## Sections
 

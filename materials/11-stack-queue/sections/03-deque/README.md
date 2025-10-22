@@ -4,13 +4,12 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | Deque Data Structure | [-]() |
 | 2 | Applications of Deque | [-]() |
 | 3 | Deque in C++ STL | [-]() |
 | 4 | Sliding Window Maximum | [-]() |
-<br>
 
 ## Problems
 

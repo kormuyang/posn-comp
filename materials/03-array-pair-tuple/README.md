@@ -13,7 +13,6 @@ The following table shows all lectures in the order in which each should be comp
 | 5 | Classes and Objects in C++ | [Code](lectures/classes_and_objects.cpp) |
 | 6 | Introduction to Pair | [-]() |
 | 7 | Introduction to Tuple | [-]() |
-<br>
 
 ## Problems
 

@@ -4,7 +4,7 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | Stack Data Structure | [-]() |
 | 2 | Applications of Stack | [-]() |
@@ -18,7 +18,6 @@ The following table shows all lectures in the order in which each should be comp
 | 10 | Evaluation of Postfix| [-]() |
 | 11 | Infix to Prefix| [-]() |
 | 12 | Evaluation of Prefix| [-]() |
-<br>
 
 ## Problems
 

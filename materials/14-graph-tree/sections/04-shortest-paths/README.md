@@ -4,7 +4,7 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | Recap of Weighted Graph | [-]() |
 | 2 | Bellman–Ford Algorithm | [-]() |
@@ -12,7 +12,6 @@ The following table shows all lectures in the order in which each should be comp
 | 4 | Dijkstra's Algorithm | [-]() |
 | 5 | Print Paths in Dijkstra's Shortest Path | [-]() |
 | 6 | Floyd–Warshall Algorithm | [-]() |
-<br>
 
 ## Problems
 
