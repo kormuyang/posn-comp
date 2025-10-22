@@ -4,7 +4,7 @@
 
 The following table shows all lectures in the order in which each should be completed.
 
-| Order | Lecture | Material |
+| Order | Content | Material |
 |:---:|:---:|:---:|
 | 1 | Recap on Array | [Code](lectures/recap_on_array.cpp) |
 | 2 | Understanding Pointer | [Code](lectures/understanding_pointer.cpp) |
