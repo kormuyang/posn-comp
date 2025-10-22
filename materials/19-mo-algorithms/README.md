@@ -1,4 +1,4 @@
-# Trie
+# Mo's Algorithms
 
 ## Lectures
 
@@ -7,7 +7,6 @@ The following table shows all lectures in the order in which each should be comp
 | Order | Lecture | Material |
 |:---:|:---:|:---:|
 | 1 | - | [-]() |
-<br>
 
 ## Problems
 
