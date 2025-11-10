@@ -7,7 +7,7 @@ using namespace std;
 // set -> binary search tree (BST)
 
 // Basic Operations
-// 1. Insert, 2. Access, 3. Find, 4. Delete
+// 1. Insert, 2. Access, 3. Search, 4. Delete
 
 int main() {
     unordered_set<string> students;
@@ -17,7 +17,7 @@ int main() {
     students.insert("Poom");
     students.insert("John");
 
-    // 2. Access & 3. Find -> Average: O(1), Worst Case: O(N)
+    // 2. Access & 3. Search -> Average: O(1), Worst Case: O(N)
     auto Kavin_it = students.find("Kavin");
     cout << *Kavin_it << '\n';
 

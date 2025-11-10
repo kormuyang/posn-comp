@@ -7,7 +7,7 @@ using namespace std;
 // map -> binary search tree (BST)
 
 // Basic Operations
-// 1. Insert, 2. Access, 3. Find, 4. Delete
+// 1. Insert, 2. Access, 3. Search, 4. Delete
 
 int main() {
     // string -> key, int -> value
@@ -24,7 +24,7 @@ int main() {
     int score = scores["Poom"];
     cout << scores["Aom"] << '\n';
 
-    // 3. Find -> Average: O(1), Worst Case: O(N)
+    // 3. Search -> Average: O(1), Worst Case: O(N)
     auto Kavin_it = scores.find("Kavin");
     if (scores.find("Aom") != scores.end()) {
         cout << "FOUND!\n";
