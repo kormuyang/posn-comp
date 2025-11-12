@@ -38,11 +38,12 @@ int main() {
             if (i + 2 * b < prime_number) {
                 break;
             }
-            int star = prime_number - sum;
-            // mx -> max_number
-            int mx = min(star, b - i);
-            // star_and_bar
-            ans += (2 * mx - star) / 2 + 1;
+            int left = prime_number - sum;
+            // mx -> max number
+            int mx = min(left, b - i);
+            // stars and bars
+            int stars = 2 * mx - left, bars = 1;
+            ans += ((stars + bars) + 1) / 2;
         }
     }
 
