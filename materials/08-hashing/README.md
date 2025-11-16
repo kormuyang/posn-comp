@@ -6,14 +6,6 @@ The following table shows all lectures in the order in which each should be comp
 
 | Order | Content | Material |
 |:---:|:---:|:---:|
-| 1 | Hashing Introduction | [-]() |
-| 2 | Direct Address Table | [-]() |
-| 3 | Hashing Functions | [-]() |
-| 4 | Collision Handling | [-]() |
-| 5 | Chaining | [-]() |
-| 6 | Open Addressing | [-]() |
-| 7 | Double Hashing | [-]() |
-| 8 | Chaining vs Open Addressing | [-]() |
 | 9 | unordered_set in C++ STL | [Code](lectures/unordered_set.cpp) |
 | 10 | unordered_map in C++ STL | [Code](lectures/unordered_map.cpp) |
 
