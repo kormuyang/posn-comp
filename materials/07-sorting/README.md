@@ -14,10 +14,10 @@ The following table shows all lectures in the order in which each should be comp
 | 6 | Merge Sort | [Code](lectures/merge_sort.cpp) |
 | 7 | Naive Partition | - |
 | 8 | Lomuto Partition | - |
-| 9 | Hoare Partition | - |
+| 9 | Hoare Partition | [Code](lectures/hoare_partition.cpp) |
 | 10 | Quick Sort (Introduction) | - |
 | 11 | Quick Sort using Lomuto Partition | - |
-| 12 | Quick Sort using Hoare Partition | - |
+| 12 | Quick Sort using Hoare Partition | [Code](lectures/quick_sort.cpp) |
 | 13 | Quick Sort (Analysis) | - |
 
 ## Problems
