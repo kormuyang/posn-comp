@@ -4,7 +4,7 @@ using namespace std;
 
 // unordered_map -> hashing
 
-// Basics Operations
+// Basic Operations
 // 1. Insert, 2. Access, 3. Search, 4. Delete
 
 int main() {
