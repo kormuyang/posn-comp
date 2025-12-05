@@ -17,11 +17,9 @@ The following table shows all problems and solutions in the order in which each 
 
 | Order | Problem | Solution |
 |:---:|:---:|:---:|
-| 1 | [pair_with_given_sum]() | [Code](solutions/pair_with_given_sum.cpp) |
-| 2 | [count_pair_with_given_sum]() | [Code](solutions/count_pairs_with_given_sum.cpp) |
-| 3 | [subarray_with_zero_sum]() | [Naive](solutions/subarray_with_zero_sum-naive.cpp), [Code](solutions/subarray_with_zero_sum.cpp) |
-| 4 | [subarray_with_given_sum]() | [Code](solutions/subarray_with_given_sum.cpp) |
-| 5 | [longest_subarray_with_given_sum]() | [-]() |
-| 6 | [longest_common_span_with_same_sum]() | [-]() |
-| 7 | [longest_consecutive_subsequence]() | [-]() |
-| 8 | [distinct_elements_in_sliding_windows]() | [-]() |
+| 1 | [pair_with_given_sum]() | [Sol1](solutions/pair_with_given_sum.cpp) |
+| 2 | [count_pair_with_given_sum]() | [Sol1](solutions/count_pairs_with_given_sum.cpp) |
+| 3 | [subarray_with_zero_sum]() | [Naive](solutions/subarray_with_zero_sum-naive.cpp), [Sol1](solutions/subarray_with_zero_sum.cpp) |
+| 4 | [subarray_with_given_sum]() | [Sol1](solutions/subarray_with_given_sum.cpp) |
+| 5 | [longest_subarray_with_given_sum]() | [Sol1](solutions/longest_subarray_with_given_sum.cpp) |
+| 8 | [distinct_elements_in_sliding_windows]() | [Sol1](solutions/count_distinct_elements_in_sliding_window.cpp) |
