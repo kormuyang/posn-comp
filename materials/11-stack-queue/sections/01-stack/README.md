@@ -6,8 +6,8 @@ The following table shows all lectures in the order in which each should be comp
 
 | Order | Content | Material |
 |:---:|:---:|:---:|
-| 1 | Stack in C++ STL | [-]() |
-| 2 | Balanced Parenthesis | [-]() |
+| 1 | Stack in C++ STL | [Code](lectures/stack.cpp) |
+| 2 | Valid Parentheses | [Code](lectures/valid_parentheses.cpp) |
 | 3 | Stock Span Problem | [-]() |
 | 4 | Previous Greater Element | [-]() |
 | 5 | Histogram Max Rectangular Area | [-]() |
