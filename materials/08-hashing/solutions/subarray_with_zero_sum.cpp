@@ -36,7 +36,7 @@ int main() {
     int prefix_sum = 0;
     for (int i = 0; i < n; i++) {
         prefix_sum += a[i];
-        if (s.find(prefix_sum) != s.end()) {
+        if (prefix_sum == 0 || s.find(prefix_sum) != s.end()) {
             cout << "True\n";
             return 0;
         }
