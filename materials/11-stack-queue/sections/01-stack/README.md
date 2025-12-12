@@ -8,10 +8,11 @@ The following table shows all lectures in the order in which each should be comp
 |:---:|:---:|:---:|
 | 1 | Stack in C++ STL | [Code](lectures/stack.cpp) |
 | 2 | Valid Parentheses | [Code](lectures/valid_parentheses.cpp) |
-| 3 | Stock Span Problem | [-]() |
-| 4 | Previous Greater Element | [-]() |
+| 3 | Previous Greater Element | [Code](lectures/previous_greater_element.cpp) |
+| 4 | Stock Span Problem | [Code](lectures/stock_span_problem.cpp) |
 | 5 | Histogram Max Rectangular Area | [-]() |
-| 6 | Infix, Prefix and Postfix | [-]() |
+| 6 | Infix to Postfix Expression | [Code](lectures/infix_to_postfix.cpp) |
+| 7 | Infix to Postfix Expression (Upgraded) | [Code](lectures/infix_to_postfix_upgraded.cpp) |
 
 ## Problems
 
