@@ -11,6 +11,10 @@ The following table shows all lectures in the order in which each should be comp
 | 3 | Directed Graph Representation (Adjacency List) | [Code](lectures/directed_graph_with_adjacency_list.cpp) |
 | 4 | Undirected Graph Representation (Adjacency List) | [Code](lectures/undirected_graph_with_adjacency_list.cpp) |
 | 5 | DFS Traversal with Recursion | [Code](lectures/dfs_traversal_with_recursion.cpp) |
+| 6 | BFS Traversal with Queue | [Code](lectures/bfs_traversal_with_queue.cpp) |
+| 7 | Shortest Path in Unweighted Graph | [Code](lectures/shortest_path_in_unweighted_graph.cpp) |
+| 8 | Weighted Graph with Adjacency List | [Code](lectures/weighted_graph_with_adjacency_list.cpp) |
+| 9 | Detect Cycle in Undirected Graph | [Code](lectures/detect_cycle_in_undirected_graph.cpp) |
 
 ## Problems
 
