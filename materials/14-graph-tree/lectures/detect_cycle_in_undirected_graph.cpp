@@ -39,7 +39,6 @@ bool isCyclic(int u, int parent) {
             return true;
         }
     }
-    vis[u] = false;
     return false;
 }
 
@@ -53,7 +52,7 @@ int main() {
         adj[v].push_back(u);
     }
     for (int i = 0; i < n; i++) {
-        if (isCyclic(i, -1)) {
+        if (!vis[i] && isCyclic(i, -1)) {
             cout << "Found!\n";
             return 0;
         }
