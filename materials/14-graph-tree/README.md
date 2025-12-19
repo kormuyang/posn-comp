@@ -15,6 +15,7 @@ The following table shows all lectures in the order in which each should be comp
 | 7 | Shortest Path in Unweighted Graph | [Code](lectures/shortest_path_in_unweighted_graph.cpp) |
 | 8 | Weighted Graph with Adjacency List | [Code](lectures/weighted_graph_with_adjacency_list.cpp) |
 | 9 | Detect Cycle in Undirected Graph | [Code](lectures/detect_cycle_in_undirected_graph.cpp) |
+| 10 | Detect Cycle in Directed Graph | [Code](lectures/detect_cycle_in_directed_graph.cpp) |
 
 ## Problems
 
