@@ -16,6 +16,9 @@ The following table shows all lectures in the order in which each should be comp
 | 8 | Weighted Graph with Adjacency List | [Code](lectures/weighted_graph_with_adjacency_list.cpp) |
 | 9 | Detect Cycle in Undirected Graph | [Code](lectures/detect_cycle_in_undirected_graph.cpp) |
 | 10 | Detect Cycle in Directed Graph | [Code](lectures/detect_cycle_in_directed_graph.cpp) |
+| 11 | Topological Sort (DFS) | [Code](lectures/topological_sort_dfs.cpp) |
+| 12 | Topological Sort (Kahn's Algorithm) | [Code](lectures/topological_sort_kahn.cpp) |
+| 13 | Detect Cycle in Directed Graph (BFS) | [Code](lectures/detect_cycle_in_directerd_graph_bfs.cpp) |
 
 ## Problems
 
