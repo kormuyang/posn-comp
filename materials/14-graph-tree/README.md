@@ -19,6 +19,9 @@ The following table shows all lectures in the order in which each should be comp
 | 11 | Topological Sort (DFS) | [Code](lectures/topological_sort_dfs.cpp) |
 | 12 | Topological Sort (Kahn's Algorithm) | [Code](lectures/topological_sort_kahn.cpp) |
 | 13 | Detect Cycle in Directed Graph (BFS) | [Code](lectures/detect_cycle_in_directerd_graph_bfs.cpp) |
+| 14 | Bellman-Ford Algorithm | [Code](lectures/bellman-ford_algorithm.cpp) |
+| 15 | Dijkstra's Algorithm | [Code](lectures/dijkstras_algorithm.cppj) |
+| 16 | Floyd-Warshall Algorithm| [Code](lectures/floyd-warshall_algorithm.cpp) |
 
 ## Problems
 
