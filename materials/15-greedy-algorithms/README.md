@@ -6,7 +6,7 @@ The following table shows all lectures in the order in which each should be comp
 
 | Order | Content | Material |
 |:---:|:---:|:---:|
-| 1 | - | [-]() |
+| 1 | Scheduling | [Code](lectures/scheduling.cpp) |
 
 ## Problems
 
