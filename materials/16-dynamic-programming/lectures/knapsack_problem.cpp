@@ -31,12 +31,6 @@ int main() {
             }
         }
     }
-    // for (int i = 0; i <= m; i++) {
-    //     for (int j = 0; j <= n; j++) {
-    //         cout << setw(3) << dp[i][j] << ' ';
-    //     }
-    //     cout << '\n';
-    // }
     cout << dp[m][n] << '\n';
     return 0;
 }

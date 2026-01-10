@@ -6,7 +6,8 @@ The following table shows all lectures in the order in which each should be comp
 
 | Order | Content | Material |
 |:---:|:---:|:---:|
-| 1 | 0/1 Knapsack Problem | [Code](lectures/knapsack_problem.cpp) |
+| 1 | Coin Problem (Recursion) | [Code](lectures/coin_problem-recursion.cpp) |
+| 2 | 0/1 Knapsack Problem | [Code](lectures/knapsack_problem.cpp) |
 
 ## Problems
 
