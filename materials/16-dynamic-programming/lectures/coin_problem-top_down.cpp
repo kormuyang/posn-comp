@@ -11,10 +11,12 @@ Output:
     3
 */
 
-#define MAX_N 1e6
+#define MAX_N 1e2
+#define MAX_VAL 1e6
 #define INF 1e9
 
 vector<int> coins(MAX_N);
+vector<int> dp(MAX_VAL, -1);
 int n;
 
 // solve(x) = the minimum number of coins required for a sum x
@@ -22,14 +24,14 @@ int solve(int x) {
     if (x < 0) {
         return INF;
     }
-    if (x == 0) {
-        return 0;
+    if (dp[x] != -1) {
+        return dp[x];
     }
-    int res = INF;
+    dp[x] = INF;
     for (int i = 0; i < n; i++) {
-        res = min(res, solve(x - coins[i]));
+        dp[x] = min(dp[x], 1 + solve(x - coins[i]));
     }
-    return res + 1;
+    return dp[x];
 }
 
 int main() {
@@ -38,6 +40,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> coins[i];
     }
-    cout << solve(x) << '\n';
+    dp[0] = 0;
+    cout << (solve(x) != INF ? dp[x] : -1) << '\n';
     return 0;
 }

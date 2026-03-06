@@ -3,30 +3,34 @@
 using namespace std;
 
 #define int long long
+#define MAX_N (int)(5e3)
 #define MOD (int)(1e9 + 7)
+
+vector<vector<char>> a(2, vector<char>(MAX_N + 1));
+vector<vector<int>> dp(2, vector<int>(MAX_N + 1));
 
 void solve() {
     int n;
-    vector<string> s(2);
-    cin >> n >> s[0] >> s[1];
-    s[0] = ' ' + s[0];
-    s[1] = ' ' + s[1];
-    for (int i = 1; i <= n; i++) {
-        if (s[0][i] == '#' && s[1][i] == '#') {
-            cout << "0\n";
-            return;
+    cin >> n;
+    for (int i = 0; i <= 1; i++) {
+        for (int j = 1; j <= n; j++) {
+            cin >> a[i][j];
         }
     }
-    vector<vector<int>> dp(2, vector<int>(n + 1, 0));
     dp[0][0] = dp[1][0] = 1;
     for (int i = 1; i <= n; i++) {
-        if (s[0][i] == '.' && s[1][i] == '.') {
+        if (a[0][i] == '.' && a[1][i] == '.') {
             dp[0][i] = (dp[0][i - 1] + dp[1][i - 1]) % MOD;
             dp[1][i] = dp[0][i];
-        } else if (s[0][i] == '.') {
+        } else if (a[0][i] == '.' && a[1][i] == '#') {
             dp[0][i] = dp[0][i - 1];
-        } else if (s[1][i] == '.') {
+            dp[1][i] = 0;
+        } else if (a[0][i] == '#' && a[1][i] == '.') {
+            dp[0][i] = 0;
             dp[1][i] = dp[1][i - 1];
+        } else {
+            dp[0][i] = 0;
+            dp[1][i] = 0;
         }
     }
     cout << (dp[0][n] + dp[1][n]) % MOD << '\n';
