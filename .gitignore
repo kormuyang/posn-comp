@@ -45,3 +45,4 @@ test.*
 test/
 .DS_Store
 .vscode/
+.cph/

@@ -11,9 +11,6 @@ int mcm(int l, int r) {
     if (dp[l][r] != -1) {
         return dp[l][r];
     }
-    if (l == r - 1) {
-        return dp[l][r] = a[l][0] * a[l][1] * a[r][1];
-    }
     int ret = INT_MAX;
     for (int i = l; i < r; i++) {
         ret = min(ret, mcm(l, i) + mcm(i + 1, r) + a[l][0] * a[i][1] * a[r][1]);
@@ -29,6 +26,9 @@ int main() {
     }
     for (int i = 0; i < n; i++) {
         dp[i][i] = 0;
+    }
+    for (int i = 0; i < n - 1; i++) {
+        dp[i][i + 1] = a[i][0] * a[i + 1][0] * a[i + 1][1];
     }
     cout << mcm(0, n - 1);
     return 0;
