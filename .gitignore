@@ -46,3 +46,4 @@ test/
 .DS_Store
 .vscode/
 .cph/
+*.bin
