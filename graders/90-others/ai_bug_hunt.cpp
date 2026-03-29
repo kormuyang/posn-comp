@@ -11,6 +11,7 @@ int32_t main() {
     for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
+    sort(a.begin(), a.end());
     map<int, int> s;
     s[a[0]]++;
     int ans = 0;
