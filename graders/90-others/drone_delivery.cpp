@@ -13,9 +13,9 @@ int32_t main() {
         cin >> a[i];
     }
     vector<vector<int>> dp(n + 2, vector<int>(3, -INF));
-    // dp[i][0] = maximum sum from 0 to i and the recent move is 1-step
-    // dp[i][1] = maximum sum from 0 to i and the recent move is 2-step
-    // dp[i][2] = maximum sum from 0 to i and the recent move is 3-step
+    // dp[i][0] = maximum sum from 0 to i and the last move is 1-step
+    // dp[i][1] = maximum sum from 0 to i and the last move is 2-step
+    // dp[i][2] = maximum sum from 0 to i and the last move is 3-step
     dp[0][0] = 0;
     dp[0][1] = 0;
     dp[0][2] = 0;

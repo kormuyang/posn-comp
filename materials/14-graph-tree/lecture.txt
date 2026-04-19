@@ -1,0 +1,13 @@
+Graph:
+- strongly connected component (SCC)
+    - Kosaraju's algorithm
+    - tarjan's algorithm
+
+Dynamic Programming:
+- bitmask
+
+Finished Topics:
+- bfs/dfs
+- floodfill
+- shortest path
+- minimum spanning tree (MST)
